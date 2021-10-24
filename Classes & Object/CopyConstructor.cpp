@@ -33,10 +33,10 @@ int main(){
 
     w1.wall(10, 5);
 
-    w2 = w1;
+    w2 = w1; // assgining the w1 object value to w2
 
-    cout << "Wall w1 = " << w1.calArea() << endl;
-    cout << "Wall w2 = " << w2.calArea() << endl;
+    cout << "Wall w1 = " << w1.calArea() << endl; // geting the w1 calArea
+    cout << "Wall w2 = " << w2.calArea() << endl; // both of the ans will be same 
 
 
     return 0;
